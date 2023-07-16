@@ -1,0 +1,22 @@
+.goal-stats {
+    background-color: white;
+    color: black;
+    padding: 30px 10px;
+    min-width: 60vw;
+    max-height: 90vh;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+
+
+
+}
+
+.goal-stats__intervals {
+    overflow-y: scroll;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}

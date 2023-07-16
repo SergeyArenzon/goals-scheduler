@@ -1,0 +1,21 @@
+.goal {
+
+
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.goal:hover {
+    box-shadow: -1px -1px 15px 1px #838181;
+}
+
+.goal__description {
+    color: black;
+}
