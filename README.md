@@ -10,7 +10,6 @@ GOAL:
 
 INTERVAL:
     *Every interval has target_value, current_value, target_date and status["inprogress", "failed", "done", "todo"].
-    
     *If target_date didnt pass the interval status will be "todo"
     *If current_date and interval date are equal then interval status will be "inprogress"
     *If current_date passed and current_value < target_value the status will be "failed".
